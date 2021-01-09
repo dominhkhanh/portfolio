@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Portfolio.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row header" id="Header">
+            <div class=" my_portfolio">
+                <h3> My Portfolio</h3>
+            </div>
+            <button onclick="Open()" class="open">Open</button>
+
+
+            <div class="content" id="content1">
+                <button onclick="Close()" class="close mr-3 mt-2">X</button>
+                <a class="nav_link" href="MyMusic.html"> My Music</a>
+                <a class="nav_link" href=""> Skills</a>
+                <a class="nav_link" href=""> About</a>
+                <a class="nav_link" href=""> Home </a>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <video src="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/blurry-trees.mov" autoplay loop playsinline muted></video>
+        </div>
+        <div class="hello row mt-5">
+            <h3> Xin Chào Mọi Người</h3>
+            <p>Đã đến với Portfolio của tôi</p>
+            <a style="top:200%;  left: 45%; position: absolute;border: 2px rgba(73, 72, 72, 0.657) solid; padding: 5px 10px;color: rgba(246, 15, 15, 0.781); border-radius: 5px; " href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1FBm3Ix5IMRax3sqefws9XBaLZSfhnkaR%2Fview%3Fusp%3Dsharing%26fbclid%3DIwAR3CFzKNRa85HuLdtlf9mpq6BBjlh4jPGvKZOcX_UswbG5QCLW4ZUeifHjU&h=AT0dGkW3MioULwFxHsbfB9DyeHV9uxmvuii0WyHv_8EdmvuxPKwjgmYjxZnqUz-KRD3t_vLeZfwx52Y_LWrFrMkF_j-dks4pAKem8ja4pKhBSrOdrmETl-AbTQ-plIa6kiW7E9oKSl0">Download My CV</a>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script>
+        function Open() {
+            document.getElementById("content1 ").style.display = "block ";
+        }
+
+        function Close() {
+            document.getElementById("content1 ").style.display = "none ";
+        }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
